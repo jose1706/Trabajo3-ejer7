@@ -1,0 +1,18 @@
+
+package ejer7C4;
+public class Ma_me_igu {
+    public static String determinador(double A, double B){
+        String respuesta;
+        if (A>B){
+            respuesta = "A es mayor que B";
+        }
+        else if (A<B){
+            respuesta = "A es menor que B";
+        }
+        else{
+           respuesta = "A es igual que B";
+        }
+       return respuesta; 
+    }
+    
+}
