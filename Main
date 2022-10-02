@@ -1,0 +1,10 @@
+package ejer7C4;
+
+
+public class Main {
+    public static void main(String[] args) {
+        VentanaE7 v3 = new VentanaE7();
+        v3.setVisible(true);
+    }   
+    
+}
